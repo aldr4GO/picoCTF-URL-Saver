@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "PicoCTF URL Saver",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting", "downloads"],
+  "host_permissions": ["http://localhost/*"],
+  "action": {
+    "default_title": "Save URL to File"
+  },
+  "background": {
+      "service_worker": "background.js"
+    }
+}
